@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -Wall -g2 -ggdb   CMakeFiles/Exe2_1_1.dir/Chapter2/Array/Exe2_1_1.cc.o  -o Exe2_1_1  -L/usr/local/lib 

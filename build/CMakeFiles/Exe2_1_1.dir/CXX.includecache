@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexdockermother/Documents/AlgorithmInAction/Chapter2/Array/Exe2_1_1.cc
+Exe2_1_1.h
+/home/alexdockermother/Documents/AlgorithmInAction/Chapter2/Array/Exe2_1_1.h
+iostream
+-
+list
+-
+
+/home/alexdockermother/Documents/AlgorithmInAction/Chapter2/Array/Exe2_1_1.h
+vector
+-
+algorithm
+-
+

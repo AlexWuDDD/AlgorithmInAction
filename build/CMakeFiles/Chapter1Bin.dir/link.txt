@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -Wall -g2 -ggdb   CMakeFiles/Chapter1Bin.dir/Chapter1/test.cpp.o  -o Chapter1Bin  -L/usr/local/lib 
