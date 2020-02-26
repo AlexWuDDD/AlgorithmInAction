@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Exe2_1_2
+
+# Build rule for target.
+Exe2_1_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Exe2_1_2
+.PHONY : Exe2_1_2
+
+# fast build rule for target.
+Exe2_1_2/fast:
+	$(MAKE) -f CMakeFiles/Exe2_1_2.dir/build.make CMakeFiles/Exe2_1_2.dir/build
+.PHONY : Exe2_1_2/fast
+
+#=============================================================================
 # Target rules for targets named Chapter1Bin
 
 # Build rule for target.
@@ -190,6 +203,33 @@ Chapter2/Array/Exe2_1_1.cc.s:
 	$(MAKE) -f CMakeFiles/Exe2_1_1.dir/build.make CMakeFiles/Exe2_1_1.dir/Chapter2/Array/Exe2_1_1.cc.s
 .PHONY : Chapter2/Array/Exe2_1_1.cc.s
 
+Chapter2/Array/Exe2_1_2.o: Chapter2/Array/Exe2_1_2.cc.o
+
+.PHONY : Chapter2/Array/Exe2_1_2.o
+
+# target to build an object file
+Chapter2/Array/Exe2_1_2.cc.o:
+	$(MAKE) -f CMakeFiles/Exe2_1_2.dir/build.make CMakeFiles/Exe2_1_2.dir/Chapter2/Array/Exe2_1_2.cc.o
+.PHONY : Chapter2/Array/Exe2_1_2.cc.o
+
+Chapter2/Array/Exe2_1_2.i: Chapter2/Array/Exe2_1_2.cc.i
+
+.PHONY : Chapter2/Array/Exe2_1_2.i
+
+# target to preprocess a source file
+Chapter2/Array/Exe2_1_2.cc.i:
+	$(MAKE) -f CMakeFiles/Exe2_1_2.dir/build.make CMakeFiles/Exe2_1_2.dir/Chapter2/Array/Exe2_1_2.cc.i
+.PHONY : Chapter2/Array/Exe2_1_2.cc.i
+
+Chapter2/Array/Exe2_1_2.s: Chapter2/Array/Exe2_1_2.cc.s
+
+.PHONY : Chapter2/Array/Exe2_1_2.s
+
+# target to generate assembly for a file
+Chapter2/Array/Exe2_1_2.cc.s:
+	$(MAKE) -f CMakeFiles/Exe2_1_2.dir/build.make CMakeFiles/Exe2_1_2.dir/Chapter2/Array/Exe2_1_2.cc.s
+.PHONY : Chapter2/Array/Exe2_1_2.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,6 +237,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... Exe2_1_2"
 	@echo "... Chapter1Bin"
 	@echo "... rebuild_cache"
 	@echo "... Exe2_1_1"
@@ -206,6 +247,9 @@ help:
 	@echo "... Chapter2/Array/Exe2_1_1.o"
 	@echo "... Chapter2/Array/Exe2_1_1.i"
 	@echo "... Chapter2/Array/Exe2_1_1.s"
+	@echo "... Chapter2/Array/Exe2_1_2.o"
+	@echo "... Chapter2/Array/Exe2_1_2.i"
+	@echo "... Chapter2/Array/Exe2_1_2.s"
 .PHONY : help
 
 

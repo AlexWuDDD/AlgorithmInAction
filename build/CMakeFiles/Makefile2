@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /home/alexdockermother/Documents/AlgorithmInAction
 CMAKE_BINARY_DIR = /home/alexdockermother/Documents/AlgorithmInAction/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/Exe2_1_2.dir
+
+# All Build rule for target.
+CMakeFiles/Exe2_1_2.dir/all:
+	$(MAKE) -f CMakeFiles/Exe2_1_2.dir/build.make CMakeFiles/Exe2_1_2.dir/depend
+	$(MAKE) -f CMakeFiles/Exe2_1_2.dir/build.make CMakeFiles/Exe2_1_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alexdockermother/Documents/AlgorithmInAction/build/CMakeFiles --progress-num=5,6 "Built target Exe2_1_2"
+.PHONY : CMakeFiles/Exe2_1_2.dir/all
+
+# Include target in all.
+all: CMakeFiles/Exe2_1_2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Exe2_1_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexdockermother/Documents/AlgorithmInAction/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Exe2_1_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexdockermother/Documents/AlgorithmInAction/build/CMakeFiles 0
+.PHONY : CMakeFiles/Exe2_1_2.dir/rule
+
+# Convenience name for target.
+Exe2_1_2: CMakeFiles/Exe2_1_2.dir/rule
+
+.PHONY : Exe2_1_2
+
+# clean rule for target.
+CMakeFiles/Exe2_1_2.dir/clean:
+	$(MAKE) -f CMakeFiles/Exe2_1_2.dir/build.make CMakeFiles/Exe2_1_2.dir/clean
+.PHONY : CMakeFiles/Exe2_1_2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Exe2_1_2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Chapter1Bin.dir
 
 # All Build rule for target.

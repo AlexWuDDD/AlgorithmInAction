@@ -15,4 +15,5 @@ link_directories(${LINK_DIR})
 
 add_executable(Chapter1Bin Chapter1/test.cpp)
 add_executable(Exe2_1_1 Chapter2/Array/Exe2_1_1.cc)
+add_executable(Exe2_1_2 Chapter2/Array/Exe2_1_2.cc)
 
